@@ -1,0 +1,87 @@
+
+        body {
+            background-color: #f0f2f5; /* Fond gris clair imposé */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center; /* Titre centré imposé */
+            color: #333;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+        .profile-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: left;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* Photo ronde imposée */
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto;
+            border: 3px solid #0056b3;
+        }
+        .info-group {
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #555;
+        }
+        .bio-section {
+            margin-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            padding-top: 15px;
+        }
+        .bio-section h3, .skills-section h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .skills-list {
+            margin-left: 20px;
+            margin-bottom: 25px;
+        }
+        .skills-list li {
+            margin-bottom: 5px;
+            color: #444;
+        }
+        .btn-contact {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #0056b3; /* Bouton bleu imposé */
+            color: #ffffff; /* Texte blanc imposé */
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        .btn-contact:hover {
+            background-color: #004085;
+        }
+        .nav-back {
+            margin-top: 20px;
+            text-decoration: none;
+            color: #0056b3;
+            font-size: 14px;
+        }
+    
